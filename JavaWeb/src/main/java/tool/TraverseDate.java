@@ -12,13 +12,10 @@ public class TraverseDate {
 
     private static transient int gregorianCutoverYear = 1582;
 
-    /** 闰年中每月天数 */
     private static final int[] DAYS_P_MONTH_LY= {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-    /** 非闰年中每月天数 */
     private static final int[] DAYS_P_MONTH_CY= {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
-    /** 代表数组里的年、月、日 */
     private static final int Y = 0, M = 1, D = 2;
 
     public static int[] splitYMD(String date){
@@ -85,7 +82,6 @@ public class TraverseDate {
         }
         return day;
     }
-
 
     public static List<String> getEveryday(String beginDate , String endDate){
         long days = countDay(beginDate, endDate);

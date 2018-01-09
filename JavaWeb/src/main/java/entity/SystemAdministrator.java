@@ -2,18 +2,6 @@ package entity;
 
 public class SystemAdministrator {
 
-//CREATE TABLE systemAdministrator
-//        (
-//        # 用户ID
-//        userID VARCHAR(10),
-//        # 用户名
-//        userName VARCHAR(32) NOT NULL,
-//        # 登录密码
-//        userPassword VARCHAR(32) NOT NULL,
-//        # 主键
-//        PRIMARY KEY (userID)
-//        ) ENGINE=InnoDB;
-
     private String userID;
 
     private String userName;

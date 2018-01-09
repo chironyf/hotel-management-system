@@ -1,19 +1,7 @@
 package entity;
 
 public class VIPLevel {
-//    CREATE TABLE VIPLevel
-//            (
-//	# 会员等级（主码）
-//                    level CHAR(4),
-//	# 享受折扣
-//    discount INT UNSIGNED,
-//            # 等级对应消费金额
-//    totalAmount INT UNSIGNED,
-//            # 备注
-//    remarks VARCHAR(32),
-//	# 主键
-//    PRIMARY KEY (level)
-//) ENGINE=InnoDB;
+    
     private String level;
 
     private int discount;

@@ -17,15 +17,17 @@ public class DataBase {
 
         try {
             Class.forName(GCON.DRIVER);
-            MAP=new HashMap<String, Connection>() ;
-            hotelConnection =DriverManager.getConnection(
+            MAP = new HashMap<String, Connection>();
+            hotelConnection = DriverManager.getConnection(
                     GCON.URL,
-                    GCON.HOTELUSERNAME ,GCON.HOTELPASSWORD) ;
-            MAP.put(GCON.HOTELUSERNAME,hotelConnection) ;
-            systemConnection =DriverManager.getConnection(
+                    GCON.HOTELUSERNAME,
+                    GCON.HOTELPASSWORD);
+            MAP.put(GCON.HOTELUSERNAME, hotelConnection);
+            systemConnection = DriverManager.getConnection(
                     GCON.URL,
-                    GCON.SYSTEMUSERNAME ,GCON.SYSTEMPASSWORD) ;
-            MAP.put(GCON.SYSTEMUSERNAME,systemConnection) ;
+                    GCON.SYSTEMUSERNAME,
+                    GCON.SYSTEMPASSWORD);
+            MAP.put(GCON.SYSTEMUSERNAME,systemConnection);
         } catch (Exception exception) {
             exception.printStackTrace();
         }
@@ -43,12 +45,11 @@ public class DataBase {
             connection = DriverManager.getConnection(GCON.URL, GCON.USERNAME, GCON.PASSWORD);
             return connection;
         }
-        if(GCON.status==0){
+        if (GCON.status == 0) {
             return MAP.get(GCON.HOTELUSERNAME) ;
-        }else {
+        } else {
             return MAP.get(GCON.SYSTEMUSERNAME) ;
         }
-
     }
     public static void setConnection(Connection connection) throws Exception {
 

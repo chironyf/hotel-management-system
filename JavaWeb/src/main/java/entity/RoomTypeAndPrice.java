@@ -1,18 +1,7 @@
 package entity;
 
 public class RoomTypeAndPrice {
-//    CREATE TABLE roomTypeAndPrice
-//            (
-//	# 房间类型（主码）
-//                    roomType VARCHAR(32),
-//	# 价格
-//    price INT UNSIGNED NOT NULL,
-//            # 备注
-//    remarks VARCHAR(32),
-//	# 主键
-//    PRIMARY KEY (roomType)
-//
-//) ENGINE=InnoDB;
+
     private String roomType;
 
     private int price;
@@ -27,7 +16,8 @@ public class RoomTypeAndPrice {
 
     public RoomTypeAndPrice(String roomType,
                             int price,
-                            String desc,String url) {
+                            String desc,
+                            String url) {
         this.roomType = roomType;
         this.price = price;
         this.desc = desc;

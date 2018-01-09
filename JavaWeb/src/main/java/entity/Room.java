@@ -1,22 +1,6 @@
 package entity;
 
 public class Room {
-//    CREATE TABLE room
-//            (
-//	# 房间号（主码）
-//                    roomNumber CHAR(6),
-//	# 房间类型
-//    roomType VARCHAR(32) NOT NULL,
-//	# 状态
-//    roomStatus CHAR(6) NOT NULL,
-//	# 备注
-//    remarks VARCHAR(32),
-//	# 主键
-//    PRIMARY KEY (roomNumber),
-//	# 外键
-//    FOREIGN KEY (roomType) REFERENCES roomTypeAndPrice(roomType)
-//
-//            ) ENGINE=InnoDB;
 
     private String roomNumber;
 

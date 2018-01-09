@@ -3,28 +3,7 @@ package entity;
 import java.sql.Date;
 
 public class Waiter {
-//    CREATE TABLE waiter
-//        (
-//	# 工号
-//    waiterID VARCHAR(10),
-//	# 姓名
-//    waiterName VARCHAR(32) NOT NULL,
-//	# 出生日期
-//    waiterBirthday DATE NOT NULL,
-//	# 身份证
-//    waiterIDCard CHAR(18) NOT NULL UNIQUE,
-//	# 系统登录密码
-//    waiterPassword VARCHAR(32) NOT NULL,
-//	# 入职日期
-//    waiterJoinDate DATE NOT NULL,
-//	# 手机
-//    waiterPhoneNumber CHAR(11) UNIQUE,
-//	# 备注
-//    remarks VARCHAR(32),
-//	# 主键
-//    PRIMARY KEY (waiterID)
-//) ENGINE=InnoDB;
-
+    
     private String waiterID;
 
     private String waiterName;

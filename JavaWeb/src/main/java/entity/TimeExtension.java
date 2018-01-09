@@ -3,25 +3,7 @@ package entity;
 import java.sql.Date;
 
 public class TimeExtension {
-    //    CREATE TABLE timeExtension
-//            (
-//	# 操作记录号
-//                    operatingID INT UNSIGNED AUTO_INCREMENT,
-//	# 操作的订单号(是记录中的订单号，外码，参照订单表)
-//    orderNumber CHAR(32),
-//	# 住房原到期日期
-//    oldExpiryDate DATE NOT NULL,
-//	# 住房新到期日期
-//    newExpiryDate DATE NOT NULL,
-//	# 需要添加的金额
-//    addedMoney INT UNSIGNED NOT NULL,
-//            # 主键
-//    PRIMARY KEY (operatingID),
-//	# 外键
-//    FOREIGN KEY (orderNumber) REFERENCES orders(orderNumber)
-//
-//            ) ENGINE=InnoDB;
-    //每次初始化之后, 自增1
+    
     private int operatingID;
 
     private String orderNumber;

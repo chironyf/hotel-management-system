@@ -3,36 +3,7 @@ package entity;
 import java.sql.Date;
 
 public class Order {
-    //    CREATE TABLE orders
-//////            (
-//////	# 订单号
-//////                    orderNumber CHAR(32),
-//////	# 订单状态（已预订，已入住，已退房/已完成三种)
-//////    orderStatus CHAR(18) NOT NULL,
-//////	# 客户身份证
-//////    customerIDCard CHAR(18) NOT NULL,
-//////	# 入住房间号
-//////    roomNumber CHAR(6) NOT NULL,
-//////	# 入住时间
-//////    checkInTime DATE NOT NULL,
-//////	# 离店时间
-//////    checkOutTime DATE NOT NULL,
-//////	# 需付金额(由于可能续费，不能作为外键)
-//////    totalMoney INT UNSIGNED NOT NULL,
-//////            # 服务员工号
-//////    waiterID VARCHAR(10) NOT NULL,
-//////	# 备注
-//////    remarks VARCHAR(32),
-//////	# 主键
-//////    PRIMARY KEY (orderNumber),
-//////	# 外键
-//////    FOREIGN KEY (customerIDCard) REFERENCES customers(customerIDCard),
-//////
-//////    FOREIGN KEY (roomNumber) REFERENCES room(roomNumber),
-//////
-//////    FOREIGN KEY (waiterID) REFERENCES waiter(waiterID)
-//////
-//////            ) ENGINE=InnoDB;
+    
     private String orderNumber;
 
     private String orderStatus;
