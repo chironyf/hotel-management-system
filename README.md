@@ -3,8 +3,8 @@
 
 ## 项目简介
 - 数据库课程设计
-![](../images/login.jpg)
-![](../images/treeMap.jpg)
-![](../images/room.jpg)
-![](../images/charts.jpg)
-![](../images/list.jpg)
+![](./images/login.jpg)
+![](./images/treeMap.jpg)
+![](./images/room.jpg)
+![](./images/charts.jpg)
+![](./images/list.jpg)
