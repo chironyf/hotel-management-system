@@ -1,0 +1,69 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+
+
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <!-- 类名 -->
+    <servlet-name>HelloServlet</servlet-name>
+    <!-- 所在的包 -->
+    <servlet-class>servlet.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <!-- 访问的网址 -->
+    <url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>ServiceManage</servlet-name>
+    <servlet-class>servlet.ServiceManage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServiceManage</servlet-name>
+    <url-pattern>/ServiceManage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>OrderManage</servlet-name>
+    <servlet-class>servlet.OrderManage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OrderManage</servlet-name>
+    <url-pattern>/OrderManage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RoomManage</servlet-name>
+    <servlet-class>servlet.RoomManage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RoomManage</servlet-name>
+    <url-pattern>/RoomManage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AdministrationManage</servlet-name>
+    <servlet-class>servlet.AdministrationManage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdministrationManage</servlet-name>
+    <url-pattern>/AdministrationManage</url-pattern>
+  </servlet-mapping>
+</web-app>
