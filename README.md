@@ -1,4 +1,4 @@
-# 宾馆管理系统
+## 项目简介
 - 数据库课程设计，基于MySQL + Tomcat + IDEA + JSP + Servlet开发
 - 前端框架采用Semantic UI + ECharts.js
 
@@ -6,6 +6,10 @@
 - [chironyf](https://github.com/chironyf)(数据可视化展示、添加房间、订单管理等)
 - [李轩](https://github.com/994047477)(订房退房、续费、房间查询预览等)
 - [ZoeQ](https://github.com/ZoeQ)(员工编辑、添加等)
+
+## 关系模型
+![](./images/model.jpg)
+
 ## 项目截图（更多图片见images文件夹）
 - 登录界面
 ![](./images/login.jpg)
