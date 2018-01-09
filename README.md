@@ -6,5 +6,5 @@
 ![](./images/login.jpg)
 ![](./images/treeMap.jpg)
 ![](./images/room.jpg)
-![](./images/charts.jpg)
+![](./images/chart.jpg)
 ![](./images/list.jpg)
