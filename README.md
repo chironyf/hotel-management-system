@@ -1,5 +1,6 @@
 # 宾馆管理系统
 数据库课程设计，基于MySQL + Tomcat + IDEA + JSP + Servlet开发
+前端框架采用Semantic UI + ECharts.js
 
 ## 项目成员
 - [chironyf](https://github.com/chironyf)
