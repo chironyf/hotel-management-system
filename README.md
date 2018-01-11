@@ -1,6 +1,7 @@
 ## 项目简介
 - 数据库课程设计，基于MySQL + Tomcat + IDEA + JSP + Servlet开发
 - 前端框架采用Semantic UI + ECharts.js
+- 关于项目的具体信息，请访问[这里](http://chironyf.com/2018/01/11/hotel-management-system-summary/)
 
 ## 项目成员
 - [chironyf](https://github.com/chironyf)(数据可视化展示、添加房间、订单管理等)
