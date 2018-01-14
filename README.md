@@ -4,7 +4,7 @@
 - 关于项目的具体信息，请访问[这里](http://chironyf.com/2018/01/11/hotel-management-system-summary/)
 
 ## 运行
-1. 在MySQL中建立一个名为hmsn的数据库（别的名字也行，但需要在项目的GCON中修改一下URL）
+1. 在MySQL中建立一个名为new的数据库（别的名字也行，但需要在项目的GCON中修改一下URL）
 2. 执行hotelCreateDB.sql，后面创建用户的语句需要单独执行
 3. 执行hotelCreateData.sql
 4. 将项目部署到Tomcat即可
