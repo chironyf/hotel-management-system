@@ -14,7 +14,7 @@
 - [李轩](https://github.com/994047477)(订房退房、续费、房间查询预览等)
 - [ZoeQ](https://github.com/ZoeQ)(员工编辑、添加等)
 
-## 关系模型
+## 关系模式
 ![](./images/model.jpg)
 
 ## 项目截图（更多图片见images文件夹）
