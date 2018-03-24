@@ -8,6 +8,7 @@
 2. 执行hotelCreateDB.sql，后面创建用户的语句需要单独执行
 3. 执行hotelCreateData.sql
 4. 将项目部署到Tomcat即可
+5. 默认访问地址是http://localhost:8080
 
 ## 项目成员
 - [chironyf](https://github.com/chironyf)(数据可视化展示、添加房间、订单管理等)
